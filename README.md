@@ -20,95 +20,144 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 
 > Mark completed items by changing `[ ]` to `[x]`.
 
-### 1) Core Foundations
-- [ ] Big-O & complexity analysis
-  - [ ] Time complexity patterns
-  - [ ] Space complexity patterns
-- [ ] Common data structures refresher
-  - [ ] Arrays & strings
-  - [ ] Linked lists
-  - [ ] Stacks & queues
-  - [ ] Hash maps & sets
-  - [ ] Trees & graphs
-  - [ ] Heaps
+### Chapter 1: Two Pointers
+- [ ] Pair Sum (Sorted)
+- [ ] Triplet Sum
+- [ ] Is Palindrome Valid
+- [ ] Largest Container
+- [ ] Shift Zeros to the End
+- [ ] Next Lexicographical Sequence
 
-### 2) Pattern: Two Pointers
-- [ ] Opposite-direction pointers
-- [ ] Same-direction pointers
-- [ ] Fast/slow pointer applications
+### Chapter 2: Hash Maps and Sets
+- [ ] Pair Sum (Unsorted)
+- [ ] Verify Sudoku Board
+- [ ] Zero Striping
+- [ ] Longest Chain of Consecutive Numbers
+- [ ] Geometric Sequence Triplets
 
-### 3) Pattern: Sliding Window
-- [ ] Fixed-size window
-- [ ] Variable-size window
-- [ ] Frequency map/window optimization
+### Chapter 3: Linked Lists
+- [ ] Linked List Reversal
+- [ ] Remove the Kth Last Node
+- [ ] Linked List Intersection
+- [ ] LRU Cache
+- [ ] Palindromic Linked List
+- [ ] Flatten a Multi-Level Linked List
 
-### 4) Pattern: Prefix Sum
-- [ ] 1D prefix sums
-- [ ] 2D prefix sums
-- [ ] Subarray sum applications
+### Chapter 4: Fast and Slow Pointers
+- [ ] Linked List Loop
+- [ ] Linked List Midpoint
+- [ ] Happy Number
 
-### 5) Pattern: Binary Search
-- [ ] Binary search on sorted arrays
-- [ ] Lower/upper bound variants
-- [ ] Binary search on answer
+### Chapter 5: Sliding Windows
+- [ ] Substring Anagrams
+- [ ] Longest Substring With Unique Characters
+- [ ] Longest Uniform Substring After Replacements
 
-### 6) Pattern: Linked List
-- [ ] Reversal techniques
-- [ ] Cycle detection
-- [ ] Merge/intersection problems
+### Chapter 6: Binary Search
+- [ ] Find the Insertion Index
+- [ ] First and Last Occurrences of a Number
+- [ ] Cutting Wood
+- [ ] Find the Target in a Rotated Sorted Array
+- [ ] Find the Median From Two Sorted Arrays
+- [ ] Matrix Search
+- [ ] Local Maxima in Array
+- [ ] Weighted Random Selection
 
-### 7) Pattern: Intervals
-- [ ] Merge intervals
-- [ ] Overlap/conflict detection
-- [ ] Sweep-line basics
+### Chapter 7: Stacks
+- [ ] Valid Parenthesis Expression
+- [ ] Next Largest Number to the Right
+- [ ] Evaluate Expression
+- [ ] Repeated Removal of Adjacent Duplicates
+- [ ] Implement a Queue Using Stacks
+- [ ] Maximums of Sliding Window
 
-### 8) Pattern: Tree Traversal
-- [ ] DFS (preorder / inorder / postorder)
-- [ ] BFS (level-order)
-- [ ] Recursive vs iterative implementations
+### Chapter 8: Heaps
+- [ ] K Most Frequent Strings
+- [ ] Combine Sorted Linked Lists
+- [ ] Median of an Integer Stream
+- [ ] Sort a K-Sorted Array
 
-### 9) Pattern: Graph Traversal
-- [ ] BFS on graphs
-- [ ] DFS on graphs
-- [ ] Topological sort
-- [ ] Union-Find basics
+### Chapter 9: Intervals
+- [ ] Merge Overlapping Intervals
+- [ ] Identify All Interval Overlaps
+- [ ] Largest Overlap of Intervals
 
-### 10) Pattern: Heap / Priority Queue
-- [ ] Top-K elements
-- [ ] Streaming median
-- [ ] Greedy + heap combinations
+### Chapter 10: Prefix Sums
+- [ ] Sum Between Range
+- [ ] K-Sum Subarrays
+- [ ] Product Array Without Current Element
 
-### 11) Pattern: Backtracking
-- [ ] Subsets
-- [ ] Permutations
-- [ ] Combinations
-- [ ] Constraint pruning
+### Chapter 11: Trees
+- [ ] Invert Binary Tree
+- [ ] Balanced Binary Tree Validation
+- [ ] Rightmost Nodes of a Binary Tree
+- [ ] Widest Binary Tree Level
+- [ ] Binary Search Tree Validation
+- [ ] Lowest Common Ancestor
+- [ ] Build a Binary Tree
+- [ ] Maximum Path Sum
+- [ ] Binary Tree Symmetry
+- [ ] Binary Tree Columns
+- [ ] Kth Smallest Number in a BST
+- [ ] Serialize and Deserialize a Binary Tree
 
-### 12) Pattern: Dynamic Programming
-- [ ] 1D DP
-- [ ] 2D DP
-- [ ] Knapsack-style DP
-- [ ] Sequence DP (LCS/LIS style)
+### Chapter 12: Tries
+- [ ] Design a Trie
+- [ ] Insert and Search Words With Wildcards
+- [ ] Find All Words on a Board
 
-### 13) Pattern: Greedy
-- [ ] Local-choice strategy
-- [ ] Interval greedy
-- [ ] Proof intuition and counterexamples
+### Chapter 13: Graphs
+- [ ] Graph Deep Copy
+- [ ] Count Islands
+- [ ] Matrix Infection
+- [ ] Bipartite Graph Validation
+- [ ] Longest Increasing Path
+- [ ] Shortest Transformation Sequence
+- [ ] Merging Communities
+- [ ] Prerequisites
+- [ ] Shortest Path
+- [ ] Connect the Dots
 
-### 14) Pattern: Monotonic Data Structures
-- [ ] Monotonic stack
-- [ ] Monotonic queue
-- [ ] Next greater/smaller element patterns
+### Chapter 14: Backtracking
+- [ ] Find All Permutations
+- [ ] Find All Subsets
+- [ ] N Queens
+- [ ] Combinations of a Sum
+- [ ] Phone Keypad Combinations
 
-### 15) Pattern: Trie & String Techniques
-- [ ] Trie operations
-- [ ] Prefix search problems
-- [ ] String hashing / rolling ideas
+### Chapter 15: Dynamic Programming
+- [ ] Climbing Stairs
+- [ ] Minimum Coin Combination
+- [ ] Matrix Pathways
+- [ ] Neighborhood Burglary
+- [ ] Longest Common Subsequence
+- [ ] Longest Palindrome in a String
+- [ ] Maximum Subarray Sum
+- [ ] 0/1 Knapsack
+- [ ] Largest Square in a Matrix
 
-### 16) Pattern: Bit Manipulation
-- [ ] Bitwise fundamentals
-- [ ] XOR tricks
-- [ ] Bitmask state representation
+### Chapter 16: Greedy
+- [ ] Jump to the End
+- [ ] Gas Stations
+- [ ] Candies
+
+### Chapter 17: Sort and Search
+- [ ] Sort an Array (Counting Sort & Quicksort)
+- [ ] Kth Largest Integer
+- [ ] Dutch National Flag
+- [ ] Sort a Linked List
+
+### Chapter 18: Bit Manipulation
+- [ ] Hamming Weights of Integers
+- [ ] Lonely Integer
+- [ ] Swap Odd and Even Bits
+
+### Chapter 19: Math and Geometry
+- [ ] Spiral Matrix
+- [ ] Reverse 32-Bit Integer
+- [ ] Maximum Collinear Points
+- [ ] Josephus
+- [ ] Triangle Numbers
 
 ---
 
