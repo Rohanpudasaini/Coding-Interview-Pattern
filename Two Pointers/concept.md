@@ -27,7 +27,7 @@ Usually while using two pointer as we intended, the time complecity is usually d
 
 There are three type of two pointer approach.
 
-**1. Inward Traversal:** 
+### 1. Inward Traversal
 Here both pointer start at opposite end of the data structure and would move towards each other.
 This type of pointer is used when we want to do some operation by comparing two or more elements and switching them. 
 Example of this:
@@ -47,7 +47,7 @@ def reverse_list_inplace(data):
 
 If you have spend a little time with Python you know we could easily reverse the list by simply doing `data[::-1]` but, that's python specific trick, in other languages you cannot do that. And also while doing `data[::-1]` time complexity is O(n) as it create a new list, copying all the elements in reverse order. So this is not a good way to reverse the list. So we need to use two pointers to reverse the list *inplace*.
 
-**2. Unidirectional Traversal:**
+### 2. Unidirectional Traversal
 Here both pointer start at same end of the data structure and would move in same direction.
 This type of pointer is used when we want to do some operation by comparing two or more elements and switching them. 
 Example of this:
@@ -62,7 +62,7 @@ def change_duplicate_elements_to_negative_in_sorted_array(data):
         right += 1
 ```
 
-**3. Staged Traversal:**
+### 3. Staged Traversal
 Here we use two pointers to traverse the data structure in two different stages. 
 First pointer search and mark elements to be moved/changed and second pointer actually moves the element. It's like first loop identify and second loop do the task.
 Example of this:
