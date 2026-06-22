@@ -21,7 +21,7 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 > Mark completed items by changing `[ ]` to `[x]`.
 
 ### Chapter 1: Two Pointers
-- [ ] Pair Sum (Sorted)
+- [x] Pair Sum (Sorted)
 - [ ] Triplet Sum
 - [ ] Is Palindrome Valid
 - [ ] Largest Container
