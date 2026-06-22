@@ -77,4 +77,39 @@ def move_all_zeros_to_end(data):
     return data
 ```
 
+## Coding Part
 
+### Pair In Sorted
+This is a simple case where we are finding two numbers in an array such that the sum of both will be equal to a given number say target.
+
+### 1. Bruteforce Approach
+Bruteforce aaproach is simply using two loop such that we check every combination of elements and find their sum to find the target.
+```python
+def pair_in_sorted(nums: list[int], target: int) -> list[int]:
+    n = len(nums)
+    for i in range(n):
+        for j in range(i+1, n):
+            if nums[i] + nums[j] == target:
+                return [i,j]
+    return []
+
+```
+
+### 2. Optimized
+If we look at the above code, we see, it have time complexity of O(n^2). We know we can drop this to O(n) if we can somehow get rid of the second loop. We know we can use two pointer to compare element and check certain case. 
+Firstly, let's look at the problem, we can see it says sorted list. Now we know in sorted list, each element on right of an elemement will be greater or equal to that element. Knowing this in mind, we can now implement two pointer.
+One pointer will start from the begining and another from the end and we check the sum of those elements. If the sum is greater than the target, we need to find smaller no, now the intution that we need to think about is in sorted array to find smaller element we need to move to left. Thus, we will move the end pointer back and in opposite case that is, the sum is less than the key, we need to increase the sum so we will move the left pointer forward.
+```python
+def pair_in_sorted(nums: list[int], target: int) -> list[int]:
+    left, right = 0, len(nums) - 1
+    while left < right:
+        if nums[left] + nums[right] > target:
+            right -= 1
+        elif nums[left] + nums[right] < target:
+            left += 1
+        else:
+            return [left, right]
+    return []
+```
+
+`The time complecity of the above code is O(n) and Space Complexity is also O(n)`
