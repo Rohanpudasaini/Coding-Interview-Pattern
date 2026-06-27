@@ -24,9 +24,9 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [x] Pair Sum (Sorted)
     - [x] BruteForce
     - [x] Optimized
-- [ ] Triplet Sum
-    - [ ] BruteForce
-    - [ ] Optimized
+- [x] Triplet Sum
+    - [x] BruteForce
+    - [x] Optimized
 - [ ] Is Palindrome Valid
 - [ ] Largest Container
 - [ ] Shift Zeros to the End
