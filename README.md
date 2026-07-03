@@ -27,7 +27,7 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [x] Triplet Sum
     - [x] BruteForce
     - [x] Optimized
-- [ ] Is Palindrome Valid
+- [x] Is Palindrome Valid
 - [ ] Largest Container
 - [ ] Shift Zeros to the End
 - [ ] Next Lexicographical Sequence
