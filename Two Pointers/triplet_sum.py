@@ -40,7 +40,7 @@ def sorted_sum_of_pair(array: list[int], start: int, sum: int) -> list[int] | No
     return None
 
 
-print(triplet_sum_optimized(array=[-2, -1, -1, 1, 2, 2]))
+print(triplet_sum_optimized(array=[0, 0, 1, -1, 1, -1]))
 
 
 def test(function: Callable[[list[int]], list[list[int]]], cases: list[list[int]]):
