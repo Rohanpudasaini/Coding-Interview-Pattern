@@ -28,9 +28,11 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
     - [x] BruteForce
     - [x] Optimized
 - [x] Is Palindrome Valid
-- [ ] Largest Container
-- [ ] Shift Zeros to the End
-- [ ] Next Lexicographical Sequence
+- [x] Largest Container
+    - [x] BruteForce
+    - [x] Optimized
+- [ ] Shift Zeros to the End (in extra pdf)
+- [ ] Next Lexicographical Sequence (in extra pdf)
 
 ### Chapter 2: Hash Maps and Sets
 - [ ] Pair Sum (Unsorted)
