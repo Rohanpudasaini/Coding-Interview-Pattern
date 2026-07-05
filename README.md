@@ -35,7 +35,9 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [ ] Next Lexicographical Sequence (in extra pdf)
 
 ### Chapter 2: Hash Maps and Sets
-- [ ] Pair Sum (Unsorted)
+- [x] Pair Sum (Unsorted)
+    - [x] BruteForce
+    - [x] Optimized
 - [ ] Verify Sudoku Board
 - [ ] Zero Striping
 - [ ] Longest Chain of Consecutive Numbers
