@@ -19,6 +19,8 @@ def pairsum(array: list[int], sum: int) -> list[int]:
     return []
 
 
+# Time complexity is O(N) and space complexity is also O(N)
+
 test_case = [-1, 3, 4, 2]
 sum = 3
 # print(pairsum_bruteforce(test_case, sum))
