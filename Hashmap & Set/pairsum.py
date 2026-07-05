@@ -24,7 +24,7 @@ def pairsum(array: list[int], target: int) -> list[int]:
 test_case = [-1, 3, 4, 2, 0, 1]
 target = 3
 # print(pairsum_bruteforce(test_case, sum))
-print(pairsum(test_case, target))
+# print(pairsum(test_case, target))
 
 
 def multiple_pairsum(array: list[int], target: int) -> list[list[int]]:
@@ -41,3 +41,25 @@ def multiple_pairsum(array: list[int], target: int) -> list[list[int]]:
 
 
 print(multiple_pairsum(test_case, target))
+
+
+## Claude's Solution
+
+"""
+def multiple_pairsum(array: list[int], target: int) -> list[list[int]]:
+    seen = {}          # value -> list of indices seen so far
+    result = []
+    for i, num in enumerate(array):
+        complement = target - num
+        if complement in seen:
+            for j in seen[complement]:
+                result.append([j, i])
+        seen.setdefault(num, []).append(i)
+        # Set default get the element form hashmap with that key and if not available,
+        # get the default value given
+        # setdefault(key, default_value) -> value or default value
+        # Small Caviet to remember
+        # The default value is always evaluated, that is even if the key given is present in the dict
+        # the given default value is also evaluated.
+    return result
+"""
