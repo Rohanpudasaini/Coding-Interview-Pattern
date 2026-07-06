@@ -38,7 +38,7 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [x] Pair Sum (Unsorted)
     - [x] BruteForce
     - [x] Optimized
-- [ ] Verify Sudoku Board
+- [x] Verify Sudoku Board
 - [ ] Zero Striping
 - [ ] Longest Chain of Consecutive Numbers
 - [ ] Geometric Sequence Triplets
