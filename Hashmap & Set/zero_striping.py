@@ -41,16 +41,16 @@ def zero_striping_optimal(mat: list[list[int]]) -> list[list[int]]:
     col = len(mat[0])
 
     first_row_contain_zero = False
-    for i in range(row):
-        if mat[i][0] == 0:
-            first_row_contain_zero = True
-            break
-    
-    first_column_contain_zero = False
     for j in range(col):
         if mat[0][j] == 0:
-            first_column_contain_zero = True
+            first_row_contain_zero = True
             break
+
+    first_column_contain_zero = False
+    for i in range(row):
+        if mat[i][0] == 0:
+            first_column_contain_zero = True
+            break    
 
     for i in range(1, row):
         for j in range(1, col):
@@ -64,15 +64,20 @@ def zero_striping_optimal(mat: list[list[int]]) -> list[list[int]]:
                 mat[i][j] = 0
     
     if first_column_contain_zero:
-        for i in range(col):
-            mat[0][i] = 0
-    
-    if first_row_contain_zero:
         for i in range(row):
             mat[i][0] = 0
+    
+    if first_row_contain_zero:
+        for j in range(col):
+            mat[0][j] = 0
 
     return mat
 
+# Time complexity of this code is O(2MxN) + O(2M) + O(2N), in time complexity we take only the highest form
+# So the time complexity ~= O(M*N)
+
+# Space complexity of this code is O(1) as we are using the first row and column to mark the status
+# Rather than using some other data structure
 
 
 zero_striping(matrix)
