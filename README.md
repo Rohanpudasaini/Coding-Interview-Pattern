@@ -39,7 +39,9 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
     - [x] BruteForce
     - [x] Optimized
 - [x] Verify Sudoku Board
-- [ ] Zero Striping
+- [x] Zero Striping
+    - [x] BruteForce
+    - [x] Optimized
 - [ ] Longest Chain of Consecutive Numbers
 - [ ] Geometric Sequence Triplets
 
