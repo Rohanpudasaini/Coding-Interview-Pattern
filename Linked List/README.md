@@ -33,3 +33,25 @@ class DoublyNode:
 
 2. Doubly Linked List:
     This is a slightly more complex type of linked list and have three componenets and starts with a node called as Heads and will always ends with None. It also have a pointer to the previous node. We can traverse the linked list in both forward and backward direction.
+
+
+## Reverse Linked Lists
+```Python
+class ListNode:
+    def __init__(self, value, next=None):
+        self.value = value
+        self.next = next
+
+def reverse_linked_list(head:ListNode) -> ListNode:
+    current_node : ListNode | None = head
+    previous_node : ListNode | None = None
+
+    while current_node is not None:
+        next_node = current_node.next
+        current_node.next = previous_node
+        previous_node = current_node
+        current_node = next_node
+    
+    return previous_node
+
+```
