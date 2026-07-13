@@ -55,3 +55,6 @@ def reverse_linked_list(head:ListNode) -> ListNode:
     return previous_node
 
 ```
+The above code show the simple implementation of linkedlist reversal. The time complexity of this code is O(N) where N is the size of the linked list because we 
+are traversing the linked list once and simply changin the pointer to the next value.
+The space complexity id O(1) as we haven't used any extra spaces and using only 3 variables i.e O(3) ~= O(1)
