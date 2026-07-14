@@ -13,3 +13,10 @@ def reverse_linked_list(head: ListNode| None)-> ListNode| None:
         previous_node = curr_node
         curr_node = next_node
     return previous_node
+
+def reverse_linked_list_recursive(head:ListNode|None, previous_node=None):
+    if head is None:
+        return previous_node
+    next_node = head.next
+    head.next = previous_node
+    return reverse_linked_list_recursive(next_node, head)
