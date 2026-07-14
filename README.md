@@ -46,7 +46,9 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [ ] Geometric Sequence Triplets
 
 ### Chapter 3: Linked Lists
-- [ ] Linked List Reversal
+- [x] Linked List Reversal
+    - [x] Iterative
+    - [x] Recursive
 - [ ] Remove the Kth Last Node
 - [ ] Linked List Intersection
 - [ ] LRU Cache

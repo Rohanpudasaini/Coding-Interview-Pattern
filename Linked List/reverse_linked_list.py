@@ -25,6 +25,10 @@ def reverse_linked_list_recursive(head:ListNode|None, previous_node=None):
     head.next = previous_node
     return reverse_linked_list_recursive(next_node, head)
 
+# Time complexity is O(N) as we are traversing the linked list once only
+# Space complexity is O(N) because each recursion call is stored in stack and will use N space in stack
+# caveat: This recursion call will fail in python if we tried linedlist with length more than 1000 as it will cause `RecursionError: maximum recursion depth exceeded`
+
 def build_list(values):
     """Turn a Python list into a linked list, return the head."""
     head = None
@@ -66,3 +70,10 @@ for name, values in cases.items():
     expected = values[::-1]
     status = "OK" if result == expected else "FAIL"
     print(f"{status:4} {name:14} {values=} ->  {result} (expected {expected})")
+
+
+# print("Testing recursion with longer linked list")
+
+# head = build_list(list(range(50000)))
+
+# reverse_linked_list_recursive(head,None)
