@@ -49,7 +49,9 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [x] Linked List Reversal
     - [x] Iterative
     - [x] Recursive
-- [ ] Remove the Kth Last Node
+- [x] Remove the Kth Last Node
+    - [x] Remove first element with value n
+    - [x] Remove kth last Node 
 - [ ] Linked List Intersection
 - [ ] LRU Cache
 - [ ] Palindromic Linked List
