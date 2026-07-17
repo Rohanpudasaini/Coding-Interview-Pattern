@@ -53,6 +53,8 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
     - [x] Remove first element with value n
     - [x] Remove kth last Node 
 - [ ] Linked List Intersection
+    - [x] With linear Space complexity
+    - [ ] Optimized
 - [ ] LRU Cache
 - [ ] Palindromic Linked List
 - [ ] Flatten a Multi-Level Linked List
