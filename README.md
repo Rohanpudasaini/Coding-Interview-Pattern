@@ -61,6 +61,8 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 
 ### Chapter 4: Fast and Slow Pointers
 - [ ] Linked List Loop
+    - [x] Linear Space Solution O(N)
+    - [ ] Optimized Constant space O(1)
 - [ ] Linked List Midpoint
 - [ ] Happy Number
 
