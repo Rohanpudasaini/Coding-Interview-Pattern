@@ -19,9 +19,25 @@ def check_cyclic_link_list(head:ListNode)-> bool:
 
 # Optimized: We can optimize this code to have space complexity of O(1).
 
+def check_cyclic_link_list_optimized(head:ListNode) -> bool:
+    fast : ListNode = head
+    slow : ListNode = head
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            return True
+    return False
+
+# Time complexity: O(N) as we are traversing the linkedlist only once
+# Space complexity : O(1) as we aren't using any extra space
+
 if __name__ == '__main__':
     head = ListNode(1)
     head.next = ListNode(2)
     head.next.next = ListNode(3)
     head.next.next.next = ListNode(4)
+    head.next.next.next.next = head
     print(check_cyclic_link_list(head))
+    print(check_cyclic_link_list_optimized(head))
+
