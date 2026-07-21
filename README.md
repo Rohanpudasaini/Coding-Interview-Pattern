@@ -55,7 +55,7 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [ ] Linked List Intersection
     - [x] With linear Space complexity
     - [x] Optimized (Constant Space)
-- [ ] LRU Cache
+- [x] LRU Cache
 - [ ] Palindromic Linked List
 - [ ] Flatten a Multi-Level Linked List
 
