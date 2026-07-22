@@ -65,6 +65,8 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
     - [x] Optimized Constant space O(1)
 - [x] Linked List Midpoint
 - [ ] Happy Number
+    - [x] Bruteforce with linear space complexity
+    - [ ] Optimized with constant space
 
 ### Chapter 5: Sliding Windows
 - [ ] Substring Anagrams
