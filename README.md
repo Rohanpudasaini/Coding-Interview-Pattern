@@ -63,7 +63,7 @@ I will follow each concept step-by-step and tick off every topic/subtopic as I c
 - [x] Linked List Loop
     - [x] Linear Space Solution O(N)
     - [x] Optimized Constant space O(1)
-- [ ] Linked List Midpoint
+- [x] Linked List Midpoint
 - [ ] Happy Number
 
 ### Chapter 5: Sliding Windows
